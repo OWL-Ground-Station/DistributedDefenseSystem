@@ -5,7 +5,7 @@
 #define PORT 10100
 #define DEMO_PORT 10200
 #define TESTING_INTERVAL 5
-#define NUM_NODES 2
+#define NUM_NODES 5
 
 #define TEST_MSG 1
 #define REQUEST_MSG 2
