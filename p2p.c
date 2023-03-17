@@ -43,7 +43,7 @@ int main(int argc, char const *argv[]) {
     while (fgets(ip, sizeof(ip), file)) {
       ip[strcspn(ip, "\r\n")] = 0; // strip out new line characters
       int len = strlen(ip);
-      int node_num = ip[len - 1] - '0' - 2;
+      int node_num = ip[len - 1] - '0';
       strcpy(nodes[k].ip_addr, ip);
       nodes[k].node_num = node_num;
       k++;
